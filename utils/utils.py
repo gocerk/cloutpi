@@ -122,7 +122,7 @@ def Sign_Transaction(seedHex, TransactionHex):
 
     return signed_transaction
 
-seed = '95aceb341eb9460708def7cb62f0dd098bf62c26012ea75fbc07c871b10ab926'
+seed = 'your_seed'
 
 def submitTransaction(signedTransactionHex):
     payload= {
